@@ -15,14 +15,14 @@
 <div class="container">
     <!--  start header  -->
     <header role="banner">
-        <h1>Notifications <span>3</span></h1>
-        <p>Mark all as read</p>
+        <h1>Notifications <span class="notificationCounter">3</span></h1>
+        <p class="markAllRead">Mark all as read</p>
     </header>
     <!--  end header  -->
 
     <!--  start notifications   -->
     <main role="main" class="notifications">
-        <div class="notification">
+        <div class="notification unread">
             <div class="notification__image">
                 <img src="./assets/images/avatar-mark-webber.webp" alt="profile image">
             </div>
@@ -31,13 +31,13 @@
                     <span class="notification__content--name">Mark Webber</span>
                     <span class="notification__content--message">reacted to your recent post </span>
                     <span class="notification__content--message2"> My first tournament today!</span>
-                    <span class="notification__content--active"></span>
+<!--                    <span class="notification__content&#45;&#45;active"></span>-->
                 </p>
                 <p class="notification__content--time">1m ago</p>
             </div>
         </div>
 
-        <div class="notification">
+        <div class="notification unread">
             <div class="notification__image">
                 <img src="./assets/images/avatar-angela-gray.webp" alt="profile image">
             </div>
@@ -45,14 +45,13 @@
                 <p>
                     <span class="notification__content--name">Angela Gray</span>
                     <span class="notification__content--message">followed you</span>
-                    <span class="notification__content--active"></span>
+<!--                    <span class="notification__content&#45;&#45;active"></span>-->
                 </p>
-                <p></p>
                 <p class="notification__content--time">5m ago</p>
             </div>
         </div>
 
-        <div class="notification">
+        <div class="notification unread">
             <div class="notification__image">
                 <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile image">
             </div>
@@ -60,7 +59,7 @@
                 <p>
                     <span class="notification__content--name">Jacob Thompson</span>
                     <span class="notification__content--message">has joined your group <span> Chess Club</span></span>
-                    <span class="notification__content--active"></span>
+<!--                    <span class="notification__content&#45;&#45;active"></span>-->
                 </p>
                 <p class="notification__content--time">1 day ago</p>
             </div>
@@ -79,9 +78,11 @@
                     <p class="notification__content--time">5 days ago</p>
                 </div>
                 <div class="notification__content--message__content">
-                    <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm
+                    <p>
+                        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm
                         already
-                        having lots of fun and improving my game.</p>
+                        having lots of fun and improving my game.
+                    </p>
                 </div>
             </div>
         </div>
@@ -130,6 +131,8 @@
         </div>
     </main>
     <!--  end notifications  -->
+
+    <script src="./js/script.js"></script>
 </div>
 </body>
 </html>

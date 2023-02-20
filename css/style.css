@@ -141,9 +141,7 @@ header h1 span {
     }
 }
 
-.notification:nth-child(1),
-.notification:nth-child(2),
-.notification:nth-child(3) {
+.notification.unread {
     background: var(--Very-light-grayish-blue);
 }
 
@@ -202,9 +200,10 @@ header h1 span {
     position: relative;
 }
 
-.notification__content--active {
-    display: inline-block;
+.unread .notification__content p:first-of-type::after {
+    content: '';
     position: absolute;
+    display: inline-block;
     bottom: 2px;
     width: 10px;
     height: 10px;
@@ -233,4 +232,5 @@ header p:hover,
 .notification__content--message2,
 .notification__content--message span{
     color: var(--primary-blue);
+    cursor: pointer;
 }
