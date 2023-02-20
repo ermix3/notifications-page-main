@@ -85,13 +85,12 @@ header h2 span {
 /* media screens */
 @media screen and (min-width: 527px) {
     body{
-        width: 100%;
+        width: 100vw;
         height: 100vh;
     }
 
     .container {
         width: 43%;
-        margin-top: 5rem;
         padding: 0.8rem;
     }
 
