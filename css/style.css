@@ -54,7 +54,7 @@ header p {
     font-weight: 800;
 }
 
-header h2 span {
+header h1 span {
     font-size: 1.1rem;
     vertical-align: middle;
     display: inline-block;
@@ -90,28 +90,28 @@ header h2 span {
     }
 
     .container {
-        width: 43%;
-        padding: 0.8rem;
+        width: 37rem;
+        padding: 1rem;
     }
 
     header{
-        padding: 0.7rem;
+        padding: 0.8rem;
         margin: 0;
     }
 
-    header h2{
-        padding: .3rem;
-        font-size: 1.1rem;
+    header h1{
+        padding: .4rem;
+        font-size: 1.2rem;
     }
 
-    header h2 span{
-        font-size: .8rem;
+    header h1 span{
+        font-size: .9rem;
         padding: .02rem .4rem;
         margin-bottom: .3rem;
     }
 
     header p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .notifications {
@@ -125,8 +125,8 @@ header h2 span {
     }
 
     .notification .notification__image img {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
     }
 
     .notification:nth-child(5) .notification__content--comment__picture {
